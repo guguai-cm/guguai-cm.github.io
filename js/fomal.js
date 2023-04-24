@@ -3147,26 +3147,27 @@ function changeBgColor() {
   changeBg(document.querySelector("#define_colors").value);
 }
 
-// 必应每日壁纸API
-let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
-// 必应历史壁纸API
-let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
-// EEE.DOG
-let EEEDog = "url(https://api.yimian.xyz/img?type=moe&size=1920x1080)";
-// 随机美图cdn.seovx.com
-let seovx = "url(https://cdn.seovx.com/?mom=302)";
-// picsum随机
-let picsum = "url(https://picsum.photos/1920/1080.webp)";
-// 小歪二次元
-// let waiDongman = "url(https://api.ixiaowai.cn/api/api.php)";
-//  小歪高清壁纸
-let waiBizhi = "url(https://api.ixiaowai.cn/gqapi/gqapi.php)";
-// 博天随机
-let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
-// tuapi 动漫
-// let tuapi = "url(https://tuapi.eees.cc/api.php?category=dongman)";
-// unsplash随机 https://source.unsplash.com/random/1920x1080/daily (weekly)
-let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
+// 随机壁纸
+// // 必应每日壁纸API
+// let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
+// // 必应历史壁纸API
+// let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
+// // EEE.DOG
+// let EEEDog = "url(https://api.yimian.xyz/img?type=moe&size=1920x1080)";
+// // 随机美图cdn.seovx.com
+// let seovx = "url(https://cdn.seovx.com/?mom=302)";
+// // picsum随机
+// let picsum = "url(https://picsum.photos/1920/1080.webp)";
+// // 小歪二次元
+// // let waiDongman = "url(https://api.ixiaowai.cn/api/api.php)";
+// //  小歪高清壁纸
+// let waiBizhi = "url(https://api.ixiaowai.cn/gqapi/gqapi.php)";
+// // 博天随机
+// let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
+// // tuapi 动漫
+// // let tuapi = "url(https://tuapi.eees.cc/api.php?category=dongman)";
+// // unsplash随机 https://source.unsplash.com/random/1920x1080/daily (weekly)
+// let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
 
 
 // 更换背景(自己的代码)
@@ -3175,7 +3176,7 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://tuchuang.voooe.cn/images/2023/04/22/dm14.webp);
-    --darkmode-bg:url(https://tuchuang.voooe.cn/images/2023/04/22/mb18.webp);
+    --darkmode-bg:url(https://tuchuang.voooe.cn/images/2023/04/22/yuanshen1.webp);
     --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
     --mobilenight-bg: url(https://tuchuang.voooe.cn/images/2023/04/22/mb8.webp);
   }`;
